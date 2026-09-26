@@ -209,22 +209,22 @@ export default function LibraryHomeScreen() {
       {/* Bottom navigation */}
       <View style={styles.bottomNav}>
         <View style={styles.navItem}>
-          <Text style={styles.activeNavIcon}>⌂</Text>
+          <Text style={styles.activeNavIcon}>🏠</Text>
           <Text style={styles.activeNavText}>Home</Text>
         </View>
 
         <View style={styles.navItem}>
-          <Text style={styles.navIcon}>▣</Text>
+          <Text style={styles.navIcon}>🗒</Text>
           <Text style={styles.navText}>Library</Text>
         </View>
 
         <View style={styles.navItem}>
-          <Text style={styles.navIcon}>♡</Text>
+          <Text style={styles.navIcon}>⭐</Text>
           <Text style={styles.navText}>Saved</Text>
         </View>
 
         <View style={styles.navItem}>
-          <Text style={styles.navIcon}>☻</Text>
+          <Text style={styles.navIcon}>👤</Text>
           <Text style={styles.navText}>Profile</Text>
         </View>
       </View>
